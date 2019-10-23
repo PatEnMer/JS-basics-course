@@ -11,7 +11,7 @@
 
 // 	console.log(i);
 // }
-// // po uzyciu continue kod ponizej nie zostanie wykonany
+// // po uzyciu continue kod ponizej nie zostanie wykonany iteracja zostanie wykonana do końcka
 
 let numbers = [ 2, 3, 6, 20, 0, 52, 11 ];
 let containZero = false;
@@ -24,3 +24,4 @@ for (let i = 0; i < numbers.length; i++) {
 		break;
 	}
 }
+// przy użyciu break kod jest przerywany, iteracja nie jest już dalej wykonywana
