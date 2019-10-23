@@ -11,4 +11,5 @@ let person = {
 
 person.firstName = 'Piotr';
 
-person.sayHello();
+// person.sayHello();
+// powyższa linijka do odpalenia z node.js
