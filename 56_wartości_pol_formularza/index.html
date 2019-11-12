@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Kurs JS basics eduweb.pl</title>
+
+        <style>
+            body {background-color: lightslategray;}
+            form div {margin-bottom: 10px;}
+        </style>
+
+    </head>
+    <body>
+        <h1>Przykład - wartości pól formularza</h1>
+
+        <form action="#" id="myForm">
+            <div>
+                <input type="text" name="firstName" value="Jan">
+            </div>
+            <div>
+                <input type="text" name="lastName">
+            </div>
+            <div>
+                <select name="subject">
+                    <option value="pytanie">Pytanie</option>
+                    <option value="prosba">Prośba</option>
+                    <option value="zgloszenie">Zgłoszenie</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="message"></textarea>
+            </div>
+            <div>
+                <label>Zapamiętaj mnie</label>
+                <input type="checkbox" name="remember" value="1">
+            </div>
+            <div>
+                <input type="submit" value="Wyślij">
+            </div>
+        </form>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
