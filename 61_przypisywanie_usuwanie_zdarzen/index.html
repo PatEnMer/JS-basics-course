@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Kurs JS basics eduweb.pl</title>
+
+        <style>
+            body {background-color: lightslategray;}
+            #btn3 {
+                width: 100px;
+                height: 20px;
+                margin-top: 30px;
+                border-radius: 10px;
+                background-color: #72ff00;
+
+                cursor: pointer;
+
+                font: 14px/20px Tahoma, Arial, sans-serif;
+                text-align: center;
+                color: #439801;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- zdarzenia przypisywane dla obiektu window przypisujemy jako atrybut dla body -->
+        <h1>Przykład - Przypisywanie i usuwanie zdarzeń dla elementów</h1>
+
+        <button id="btn" onclick="sayHello();">Kliknij mnie</button>
+        <!-- takie wprowadzenie kodu bezpośrednio do wykonania jak powyżej nie jest zalecane ze względu na mieszanie html z JS -->
+        <br /><br />
+        <button id="btn2">Kliknij mnie</button>
+        <div id="btn3">Kliknij mnie</div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
