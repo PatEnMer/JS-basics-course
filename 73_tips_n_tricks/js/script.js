@@ -1,16 +1,11 @@
-// const txt = '';
+let text = '';
 
-// let b = Boolean(txt);
-
-// // !! - dowolną wartość, prawdziwą lub fałszywą skonwertuj na fałsz - podwójne zaprzeczenie
-// if (!!txt === false) {
-// 	console.log('fałsz');
-// }
-
-function sayHello(name) {
-	name = name || 'Nieznajomy'; //zapis poniższy można zastąpić przez "or"
-	// name = name ? name : 'Nieznajomy';
-	alert('Witaj, ' + name);
+for (let i = 0; i < 100; i++) {
+	text += '-';
 }
 
-sayHello('Pat');
+console.log(text);
+
+let text1 = new Array(101).join('x');
+
+console.log(text1);
