@@ -1,11 +1,12 @@
-let text = '';
+let text = 'Odrwócony tekst do przeczytania całkiem całkiem';
 
-for (let i = 0; i < 100; i++) {
-	text += '-';
+let reverse = '';
+
+for (let i = text.length - 1; i >= 0; i--) {
+	reverse += text[i];
 }
 
-console.log(text);
+console.log(reverse);
 
-let text1 = new Array(101).join('x');
-
-console.log(text1);
+text1 = 'dowolną wartość, prawdziwą lub fałszywą skonwertuj na fałsz';
+console.log(text1.split('').reverse().join(''));
